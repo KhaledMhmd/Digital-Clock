@@ -1,0 +1,42 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("pattern.png");
+}
+
+.container {
+  background: #195e83;
+  width: 40%;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+}
+
+.badge {
+  background: #edb879;
+  padding: 10px 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  width: 150px;
+  text-align: center;
+  position: absolute;
+  top: -25px;
+  left: 33.33%;
+}
+
+.time {
+  background: #69bdd2;
+  text-align: center;
+  font-family: Courier New;
+  height: 100%;
+  font-size: 80px;
+  padding-top: 25px;
+}
